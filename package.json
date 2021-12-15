@@ -1,0 +1,19 @@
+{
+  "name": "kata-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Layronne/Kata-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Layronne/Kata-Test/issues"
+  },
+  "homepage": "https://github.com/Layronne/Kata-Test#readme"
+}
