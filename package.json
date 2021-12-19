@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "nyc mocha"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Layronne/Kata-Test/issues"
   },
-  "homepage": "https://github.com/Layronne/Kata-Test#readme"
+  "homepage": "https://github.com/Layronne/Kata-Test#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
