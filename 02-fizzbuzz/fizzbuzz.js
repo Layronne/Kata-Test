@@ -1,16 +1,19 @@
-  export function fizz() {
-      for (let i = 1; i < 101; i++) {
-        if (i % 15 == 0) {
-          console.log('fizzbuzz');
-        } else if (i % 3 == 0) {
-          console.log('fizz');
-        } else if (i % 5 == 0) {
-          console.log('buzz');
-        } else {
-        console.log(i);
-        }  
+  export function fizz(n) {
+    if (n % 3 == 0 && n % 5 == 0) {
+      return 'fizzbuzz'
       }
+    else if (n % 3 == 0)  {
+        return 'fizz'
       }
+    else if (n % 5 == 0) {
+        return 'buzz'
+      }
+    else {
+      return `${n}`
+    }
+      
+      }
+      
       
       
       fizz();
