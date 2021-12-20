@@ -1,4 +1,4 @@
-function countBs(char) {
+export function countBs(char) {
   var count = 0;
   for (let i = 0; i < char.length; i++) {
     if (char.charAt(i) == "B") {
@@ -11,7 +11,7 @@ function countBs(char) {
 
 
 
-function countChar(char1, char2) {
+export function countChar(char1, char2) {
   var count = 0;
   for (let i = 0; i < char1.length; i++) {
     if (char1.charAt(i) === char2) {
