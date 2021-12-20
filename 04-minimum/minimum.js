@@ -1,4 +1,4 @@
-function min (a, b) {
+export function min (a, b) {
   if (a < b) {
     return a
   } else {
