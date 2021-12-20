@@ -4,12 +4,12 @@ export function triangle() {
   let hashtag = [];
 
   for (let i = 0; i < 7; i++) {
-    diez += "#"
+    diez += "#";
     hashtag.push(diez);
   }
-   return hashtag
+   return hashtag;
   }
   
  export function callTriangle() {
-    return triangle().join('\n')
+    return triangle().join('\n');
   }

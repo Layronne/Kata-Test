@@ -1,6 +1,6 @@
 import chai from 'chai';
 const assert = chai.assert;
-import {triangle, callTriangle} from '../triangle.js'
+import {triangle, callTriangle} from '../01-looping-a-triangle/triangle.js'
 
 describe('#triangle', () => {
     it ('it should be a string', () => {

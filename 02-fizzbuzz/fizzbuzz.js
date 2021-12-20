@@ -1,19 +1,15 @@
   export function fizz(n) {
-    if (n % 3 == 0 && n % 5 == 0) {
-      return 'fizzbuzz'
-      }
-    else if (n % 3 == 0)  {
-        return 'fizz'
-      }
-    else if (n % 5 == 0) {
-        return 'buzz'
-      }
-    else {
-      return `${n}`
+    let str = '';
+     if (n % 3 == 0)  {
+        str += 'fizz';
+      } if (n % 5 == 0) {
+        str += 'buzz';
+      } if (str === ''){
+        str += n;
     }
+    return str
       
       }
       
       
       
-      fizz();

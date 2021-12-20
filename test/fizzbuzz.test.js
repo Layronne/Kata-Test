@@ -1,8 +1,11 @@
 import chai, { expect } from 'chai';
 const assert = chai.assert;
-import {fizz} from '../fizzbuzz.js'
+import {fizz} from '../02-fizzbuzz/fizzbuzz.js'
 
 describe ('#fizz', () => {
+    it ('should return a string',() => {
+        assert.isString(fizz(7), 'should be a string')
+    })
     it('should return fizz if multiple of 3', () => {
         assert.equal(fizz(3),'fizz')
 })
@@ -15,7 +18,5 @@ describe ('#fizz', () => {
     it('should return n otherwise', () => {
         assert.equal(fizz(8),'8')
     })
-    it ('should return a string',() => {
-        assert.isString(fizz(), 'should be a string')
-    })
+    
 })
